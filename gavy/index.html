@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>SLIET Mentorship Platform</title>
+    <link rel="icon" type="image/x-icon" href="img/fav.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <nav class="sidebar">
+
+            <nav class="sidenavbar">
+                <h1>SLIET Mentorship</h1>
+            </nav>
+
+            
+            <a href="#">
+                <div class="lefticon">
+                    <ion-icon name="notifications-outline"></ion-icon>
+                </div>
+                <div class="text">Notifications</div>
+                <div class="righticon">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </a>
+            
+            <a href="#">
+                <div class="lefticon">
+                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                </div>
+                <div class="text">Help & Support<br>
+                </div>
+                <div class="righticon">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </a>
+            <nav class="sidesubnavbar">
+                
+                <p>Unlock special offers & great benefits</p>
+                <button class="login" onclick="document.getElementById('id01').style.display='block'">Login / Register</button>
+            </nav>
+
+        </nav>
+        <!-- End sidebar -->
+
+        <!-- Content -->
+        <div class="content">
+            <!-- Navbar -->
+            <nav class="navbar">
+                <img src="img/logo.png" class="brand-logo" alt="" />
+                <div class='input'>
+                    <ion-icon name="search"></ion-icon>
+                    <input className='search'
+                        placeholder='Search mentors'></input>
+                </div>
+                <div class="right-container">
+                    <a href="#" class="location">SLIET<ion-icon name="caret-down-sharp"></ion-icon></a>
+                    <button class="signin" onclick="document.getElementById('id01').style.display='block'">Signin</button>
+                </div>
+            </nav>
+
+            <div class="carousel-container">
+                <div class="carousel">
+                </div>
+            </div>
+
+            <!-- Faculty Section -->
+            <section id="mentors">
+                <h2>Meet Our Mentors</h2>
+
+                <div class="mentor-profile">
+                    <img src="http://sliet.ac.in/wp-content/uploads/avatars/5/6fc17d6735998f4f22a0e91fbf43b75c-bpfull.jpg" alt="Dr. Birmohan Singh">
+                    <h3>Dr. Birmohan Singh</h3>
+                    <p>Ph.D., M.E.</p>
+                    <p>Phone: +91-1672-253208</p>
+                    <p>Email: birmohansingh@sliet.ac.in</p>
+                    <p>Available: 2:00 PM - 4:00 PM (Monday)</p>
+                </div>
+
+                <div class="mentor-profile">
+                    <img src="http://sliet.ac.in/wp-content/uploads/avatars/4/65783e7db0473-bpfull.jpg" alt="Dr. Damanpreet Singh">
+                    <h3>Dr. Damanpreet Singh</h3>
+                    <p>Ph.D., M.Tech, B.Tech.</p>
+                    <p>Phone: +91-1672-253210</p>
+                    <p>Email: damanpreets@sliet.ac.in</p>
+                    <p>Available: 4:00 PM - 6:00 PM (Tuesday)</p>
+                </div>
+
+                <div class="mentor-profile">
+                    <img src="http://sliet.ac.in/wp-content/uploads/avatars/24/184456ba1fded49f1e3a1a68ef967e6e-bpfull.jpg" alt="Dr. Jagmohan Singh">
+                    <h3>Dr. Jagmohan Singh</h3>
+                    <p>Ph.D., M.E.</p>
+                    <p>Phone: +91-1672-253211</p>
+                    <p>Email: jagmohans@sliet.ac.in</p>
+                    <p>Available: 3:00 PM - 5:00 PM (Wednesday)</p>
+                </div>
+
+                <div class="mentor-profile">
+                    <img src="http://sliet.ac.in/wp-content/uploads/avatars/12/19fc679e1fb2fdea1b3bcdc0d07032ac-bpfull.jpg" alt="Dr. Rajesh Kumar">
+                    <h3>Dr. Rajesh Kumar</h3>
+                    <p>Ph.D., M.Tech.</p>
+                    <p>Phone: +91-1672-253212</p>
+                    <p>Email: rajeshkumar@sliet.ac.in</p>
+                    <p>Available: 10:00 AM - 12:00 PM (Thursday)</p>
+                </div>
+
+                <div class="mentor-profile">
+                    <img src="http://sliet.ac.in/wp-content/uploads/avatars/23/9819aafe5e7a37acdc88e235cf8001c8-bpfull.jpg" alt="Dr. Amit Kumar">
+                    <h3>Dr. Amit Kumar</h3>
+                    <p>Ph.D., M.Tech.</p>
+                    <p>Phone: +91-1672-253213</p>
+                    <p>Email: amitkumar@sliet.ac.in</p>
+                    <p>Available: 11:00 AM - 1:00 PM (Friday)</p>
+                </div>
+
+            </section>
+
+            <!-- Booking Section -->
+            <section id="booking">
+                <h2>Book a Session</h2>
+                <form id="booking-form">
+                    <label for="mentor">Select Mentor:</label>
+                    <select id="mentor" name="mentor">
+                        <option value="birmohan-singh">Dr. Birmohan Singh</option>
+                        <option value="damanpreet-singh">Dr. Damanpreet Singh</option>
+                        <option value="jagmohan-singh">Dr. Jagmohan Singh</option>
+                        <option value="rajesh-kumar">Dr. Rajesh Kumar</option>
+                        <option value="amit-kumar">Dr. Amit Kumar</option>
+                    </select>
+                    
+                    <label for="timeslot">Select Time Slot:</label>
+                    <select id="timeslot" name="timeslot">
+                        <option value="2-4pm">2:00 PM - 4:00 PM</option>
+                        <option value="3-5pm">3:00 PM - 5:00 PM</option>
+                        <option value="10-12pm">10:00 AM - 12:00 PM</option>
+                    </select>
+
+                    <input type="submit" value="Book Now">
+                </form>
+
+                <!-- Booking Notification -->
+                <div id="booking-notification"></div>
+            </section>
+
+        </div>
+        <!-- End content -->
+
+    </div>
+    <!-- End wrapper -->
+
+    <!-- JavaScript for Booking -->
+    <script>
+        const bookingForm = document.getElementById("booking-form");
+        const notificationDiv = document.getElementById("booking-notification");
+
+        bookingForm.addEventListener("submit", function(event) {
+            event.preventDefault();
+            const mentor = document.getElementById("mentor").value;
+            const timeslot = document.getElementById("timeslot").value;
+            
+            notificationDiv.innerHTML = You have successfully booked a session with ${mentor} at ${timeslot}.;
+        });
+    </script>
+
+</body>
+
+</html>
