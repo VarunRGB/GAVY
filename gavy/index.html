@@ -200,8 +200,8 @@
              }
 
             function sendMessage(chatId) {
-                const chatInput = document.querySelector(#${chatId} .chat-input);
-                const chatMessages = document.querySelector(#${chatId} .chat-messages);
+                const chatInput = document.querySelector(`#${chatId} .chat-input`);
+                const chatMessages = document.querySelector(`#${chatId} .chat-messages`);
 
                 const message = chatInput.value.trim();
                 if (message) {
@@ -279,12 +279,12 @@
             );
 
             if (isBooked) {
-                notificationDiv.innerHTML = Sorry, ${mentor} is already booked at ${timeslot}. Please select a different time.;
+                notificationDiv.innerHTML = `Sorry, ${mentor} is already booked at ${timeslot}. Please select a different time.`;
                 notificationDiv.style.color = "red";
             } else {
                 // Add the booking to the array
                 bookedSessions.push({ mentor, timeslot });
-                notificationDiv.innerHTML = You have successfully booked a session with ${mentor} at ${timeslot}.;
+                notificationDiv.innerHTML = `You have successfully booked a session with ${mentor} at ${timeslot}.`;
                 notificationDiv.style.color = "green";
             }
         });
