@@ -7,7 +7,7 @@ bookingForm.addEventListener("submit", function(event) {
     const mentor = document.getElementById("mentor").value;
     const timeslot = document.getElementById("timeslot").value;
     
-    notificationDiv.innerHTML = You have successfully booked a session with ${mentor} at ${timeslot}.;
+    notificationDiv.innerHTML = `You have successfully booked a session with ${mentor} at ${timeslot}.`;
 });
 
 // Chat functionality placeholder (you can expand this as needed for a simple chat system)
