@@ -98,82 +98,160 @@
             </div>
 
             <!-- Faculty Section -->
-            <section id="mentors">
-                <h2>Meet Our Mentors</h2>
-
-                <div class="mentor-profile">
-                    <img src="http://sliet.ac.in/wp-content/uploads/avatars/5/6fc17d6735998f4f22a0e91fbf43b75c-bpfull.jpg" alt="Dr. Birmohan Singh">
-                    <h3>Dr. Birmohan Singh</h3>
-                    <p>Ph.D., M.E.</p>
-                    <p>Phone: +91-1672-253208</p>
-                    <p>Email: birmohansingh@sliet.ac.in</p>
-                    <p>Available: 2:00 PM - 4:00 PM (Monday)</p>
+             
+            <div class="content">
+                <div id="mentors">
+                    <h2>Mentor Profiles</h2>
+            
+                    <!-- Mentor Profile 1 -->
+                    <div class="mentor-profile">
+                        <img src="http://sliet.ac.in/wp-content/uploads/avatars/5/6fc17d6735998f4f22a0e91fbf43b75c-bpfull.jpg" alt="Dr. Birmohan Singh">
+                        <div class="mentor-details">
+                            <h3>Dr. Birmohan Singh</h3>
+                            <p><ion-icon name="call-outline"></ion-icon> +91-1672-253208</p>
+                            <p><ion-icon name="mail-outline"></ion-icon> birmohansingh@sliet.ac.in</p>
+                            <p class="available"><ion-icon name="calendar-outline"></ion-icon> Available: 2:00 PM - 4:00 PM (Monday)</p>
+                            <button class="chat-button" onclick="toggleChat('chat1')">Chat</button>
+                            <div id="chat1" class="chat-box">
+                                <div class="chat-messages"></div>
+                                <input type="text" class="chat-input" placeholder="Type a message..." />
+                                <button class="send-button" onclick="sendMessage('chat1')">Send</button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Mentor Profile 2 -->
+                    <div class="mentor-profile">
+                        <img src="http://sliet.ac.in/wp-content/uploads/avatars/4/65783e7db0473-bpfull.jpg" alt="Dr. Damanpreet Singh">
+                        <div class="mentor-details">
+                            <h3>Dr. Damanpreet Singh</h3>
+                            <p><ion-icon name="call-outline"></ion-icon> +91-1672-253210</p>
+                            <p><ion-icon name="mail-outline"></ion-icon> damanpreets@sliet.ac.in</p>
+                            <p class="available"><ion-icon name="calendar-outline"></ion-icon> Available: 4:00 PM - 6:00 PM (Tuesday)</p>
+                            <button class="chat-button" onclick="toggleChat('chat2')">Chat</button>
+                            <div id="chat2" class="chat-box">
+                                <div class="chat-messages"></div>
+                                <input type="text" class="chat-input" placeholder="Type a message..." />
+                                <button class="send-button" onclick="sendMessage('chat2')">Send</button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Mentor Profile 3 -->
+                    <div class="mentor-profile">
+                        <img src="http://sliet.ac.in/wp-content/uploads/avatars/8/35c7480632a-bpfull.jpg" alt="Dr. Paramjeet Singh">
+                        <div class="mentor-details">
+                            <h3>Dr. Paramjeet Singh</h3>
+                            <p><ion-icon name="call-outline"></ion-icon> +91-1672-253209</p>
+                            <p><ion-icon name="mail-outline"></ion-icon> paramjeetsingh@sliet.ac.in</p>
+                            <p class="available"><ion-icon name="calendar-outline"></ion-icon> Available: 10:00 AM - 12:00 PM (Wednesday)</p>
+                            <button class="chat-button" onclick="toggleChat('chat3')">Chat</button>
+                            <div id="chat3" class="chat-box">
+                                <div class="chat-messages"></div>
+                                <input type="text" class="chat-input" placeholder="Type a message..." />
+                                <button class="send-button" onclick="sendMessage('chat3')">Send</button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Mentor Profile 4 -->
+                    <div class="mentor-profile">
+                        <img src="http://sliet.ac.in/wp-content/uploads/avatars/12/42b60b0bcba-bpfull.jpg" alt="Dr. Kamaljit Kaur">
+                        <div class="mentor-details">
+                            <h3>Dr. Kamaljit Kaur</h3>
+                            <p><ion-icon name="call-outline"></ion-icon> +91-1672-253212</p>
+                            <p><ion-icon name="mail-outline"></ion-icon> kamaljitkaur@sliet.ac.in</p>
+                            <p class="available"><ion-icon name="calendar-outline"></ion-icon> Available: 1:00 PM - 3:00 PM (Thursday)</p>
+                            <button class="chat-button" onclick="toggleChat('chat4')">Chat</button>
+                            <div id="chat4" class="chat-box">
+                                <div class="chat-messages"></div>
+                                <input type="text" class="chat-input" placeholder="Type a message..." />
+                                <button class="send-button" onclick="sendMessage('chat4')">Send</button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Mentor Profile 5 -->
+                    <div class="mentor-profile">
+                        <img src="http://sliet.ac.in/wp-content/uploads/avatars/15/a9bc37a260a-bpfull.jpg" alt="Dr. Pardeep Kumar">
+                        <div class="mentor-details">
+                            <h3>Dr. Pardeep Kumar</h3>
+                            <p><ion-icon name="call-outline"></ion-icon> +91-1672-253214</p>
+                            <p><ion-icon name="mail-outline"></ion-icon> pardeepkumar@sliet.ac.in</p>
+                            <p class="available"><ion-icon name="calendar-outline"></ion-icon> Available: 11:00 AM - 1:00 PM (Friday)</p>
+                            <button class="chat-button" onclick="toggleChat('chat5')">Chat</button>
+                            <div id="chat5" class="chat-box">
+                                <div class="chat-messages"></div>
+                                <input type="text" class="chat-input" placeholder="Type a message..." />
+                                <button class="send-button" onclick="sendMessage('chat5')">Send</button>
+                            </div>
+                        </div>
+                    </div>
+            
                 </div>
+            </div>
+            
+            
+            
+            <script>
+            function toggleChat(chatId) {
+                const chatBox = document.getElementById(chatId);
+                chatBox.style.display = chatBox.style.display === 'block' ? 'none' : 'block';
+             }
 
-                <div class="mentor-profile">
-                    <img src="http://sliet.ac.in/wp-content/uploads/avatars/4/65783e7db0473-bpfull.jpg" alt="Dr. Damanpreet Singh">
-                    <h3>Dr. Damanpreet Singh</h3>
-                    <p>Ph.D., M.Tech, B.Tech.</p>
-                    <p>Phone: +91-1672-253210</p>
-                    <p>Email: damanpreets@sliet.ac.in</p>
-                    <p>Available: 4:00 PM - 6:00 PM (Tuesday)</p>
-                </div>
+            function sendMessage(chatId) {
+                const chatInput = document.querySelector(#${chatId} .chat-input);
+                const chatMessages = document.querySelector(#${chatId} .chat-messages);
 
-                <div class="mentor-profile">
-                    <img src="http://sliet.ac.in/wp-content/uploads/avatars/24/184456ba1fded49f1e3a1a68ef967e6e-bpfull.jpg" alt="Dr. Jagmohan Singh">
-                    <h3>Dr. Jagmohan Singh</h3>
-                    <p>Ph.D., M.E.</p>
-                    <p>Phone: +91-1672-253211</p>
-                    <p>Email: jagmohans@sliet.ac.in</p>
-                    <p>Available: 3:00 PM - 5:00 PM (Wednesday)</p>
-                </div>
+                const message = chatInput.value.trim();
+                if (message) {
+                    const messageDiv = document.createElement('div');
+                    messageDiv.className = 'message';
+                    messageDiv.textContent = message;
+                    chatMessages.appendChild(messageDiv);
+                    chatInput.value = '';
+                    chatMessages.scrollTop = chatMessages.scrollHeight; // Auto-scroll to the latest message
+                }
+            }
 
-                <div class="mentor-profile">
-                    <img src="http://sliet.ac.in/wp-content/uploads/avatars/12/19fc679e1fb2fdea1b3bcdc0d07032ac-bpfull.jpg" alt="Dr. Rajesh Kumar">
-                    <h3>Dr. Rajesh Kumar</h3>
-                    <p>Ph.D., M.Tech.</p>
-                    <p>Phone: +91-1672-253212</p>
-                    <p>Email: rajeshkumar@sliet.ac.in</p>
-                    <p>Available: 10:00 AM - 12:00 PM (Thursday)</p>
-                </div>
-
-                <div class="mentor-profile">
-                    <img src="http://sliet.ac.in/wp-content/uploads/avatars/23/9819aafe5e7a37acdc88e235cf8001c8-bpfull.jpg" alt="Dr. Amit Kumar">
-                    <h3>Dr. Amit Kumar</h3>
-                    <p>Ph.D., M.Tech.</p>
-                    <p>Phone: +91-1672-253213</p>
-                    <p>Email: amitkumar@sliet.ac.in</p>
-                    <p>Available: 11:00 AM - 1:00 PM (Friday)</p>
-                </div>
-
-            </section>
+            </script>
+            
+            
 
             <!-- Booking Section -->
-            <section id="booking">
+            <div id="booking">
                 <h2>Book a Session</h2>
                 <form id="booking-form">
                     <label for="mentor">Select Mentor:</label>
-                    <select id="mentor" name="mentor">
-                        <option value="birmohan-singh">Dr. Birmohan Singh</option>
-                        <option value="damanpreet-singh">Dr. Damanpreet Singh</option>
-                        <option value="jagmohan-singh">Dr. Jagmohan Singh</option>
-                        <option value="rajesh-kumar">Dr. Rajesh Kumar</option>
-                        <option value="amit-kumar">Dr. Amit Kumar</option>
+                    <select id="mentor">
+                        <option value="Dr. Birmohan Singh">Dr. Birmohan Singh</option>
+                        <option value="Dr. Aarti Verma">Dr. Aarti Verma</option>
+                        <option value="Dr. Rajeev Kumar">Dr. Rajeev Kumar</option>
+                        <option value="Dr. Sneha Mehta">Dr. Sneha Mehta</option>
+                        <option value="Dr. Vikram Singh">Dr. Vikram Singh</option>
                     </select>
-                    
-                    <label for="timeslot">Select Time Slot:</label>
-                    <select id="timeslot" name="timeslot">
-                        <option value="2-4pm">2:00 PM - 4:00 PM</option>
-                        <option value="3-5pm">3:00 PM - 5:00 PM</option>
-                        <option value="10-12pm">10:00 AM - 12:00 PM</option>
+    
+                    <label for="timeslot">Select Time:</label>
+                    <select id="timeslot">
+                        <option value="08:00 AM">08:00 AM</option>
+                        <option value="09:00 AM">09:00 AM</option>
+                        <option value="10:00 AM">10:00 AM</option>
+                        <option value="11:00 AM">11:00 AM</option>
+                        <option value="12:00 PM">12:00 PM</option>
+                        <option value="01:00 PM">01:00 PM</option>
+                        <option value="02:00 PM">02:00 PM</option>
+                        <option value="03:00 PM">03:00 PM</option>
+                        <option value="04:00 PM">04:00 PM</option>
+                        <option value="05:00 PM">05:00 PM</option>
                     </select>
-
-                    <input type="submit" value="Book Now">
+    
+                    <input type="submit" value="Book Session">
                 </form>
-
-                <!-- Booking Notification -->
                 <div id="booking-notification"></div>
-            </section>
+            </div>
+        </div>
+    
+      
 
         </div>
         <!-- End content -->
@@ -183,17 +261,35 @@
 
     <!-- JavaScript for Booking -->
     <script>
+        // Booking Functionality
         const bookingForm = document.getElementById("booking-form");
         const notificationDiv = document.getElementById("booking-notification");
+
+        // Array to hold booked sessions
+        const bookedSessions = [];
 
         bookingForm.addEventListener("submit", function(event) {
             event.preventDefault();
             const mentor = document.getElementById("mentor").value;
             const timeslot = document.getElementById("timeslot").value;
-            
-            notificationDiv.innerHTML = You have successfully booked a session with ${mentor} at ${timeslot}.;
+
+            // Check if the mentor and timeslot are already booked
+            const isBooked = bookedSessions.some(session => 
+                session.mentor === mentor && session.timeslot === timeslot
+            );
+
+            if (isBooked) {
+                notificationDiv.innerHTML = Sorry, ${mentor} is already booked at ${timeslot}. Please select a different time.;
+                notificationDiv.style.color = "red";
+            } else {
+                // Add the booking to the array
+                bookedSessions.push({ mentor, timeslot });
+                notificationDiv.innerHTML = You have successfully booked a session with ${mentor} at ${timeslot}.;
+                notificationDiv.style.color = "green";
+            }
         });
     </script>
+
 
 </body>
 
